@@ -3,7 +3,7 @@
 
 .square .fas, .square .far {
   color: #cc2a49;
-  font-size: 12vw;
+  font-size: 11vh;
 }
 
 ol, ul {
@@ -17,7 +17,7 @@ ol, ul {
 }
 
 .status {
-  font-size: 6vw;
+  font-size: 6vh;
   margin-bottom: 10px;
   color: #f99e4c;
   text-align: center;
@@ -30,12 +30,12 @@ ol, ul {
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
-  height: 20vw;
+  height: 18vh;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 20vw;
+  width: 18vh;
 }
 
 .square:focus {
@@ -48,9 +48,30 @@ ol, ul {
 
 .game {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .game-info {
-  margin-left: 20px;
+  height: 10vh;
+  text-align: center;
+}
+
+.game-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.history {
+  padding-top: 10vh;
+}
+
+.history-entry {
+  color: #ef4648;
+  font-size: 3.5vh;
+  margin-left: 4vh;
+}
+
+.history-entry:hover {
+  color: #f99e4c;
+  cursor: pointer;
 }
