@@ -36,14 +36,14 @@ ol, ul {
   padding: 0;
   text-align: center;
   width: 18vh;
+  transition: 0.5s;
 }
 
 .square:focus {
   outline: none;
 }
-
-.kbd-navigation .square:focus {
-  background: #ddd;
+.square:hover {
+  background: #f36f38;
 }
 
 .game {
