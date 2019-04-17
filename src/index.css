@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700');
+@import './App.css';
 
-body {
-  font-family: Open Sans;
-  font-weight: 300;
-  margin: 20px;
+.square .fas, .square .far {
+  color: #cc2a49;
+  font-size: 12vw;
 }
 
 ol, ul {
@@ -17,23 +17,25 @@ ol, ul {
 }
 
 .status {
+  font-size: 6vw;
   margin-bottom: 10px;
+  color: #f99e4c;
   text-align: center;
 }
 
 .square {
-  background: #fff;
-  border: 1px solid #999;
+  background: none;
+  border: 2px solid #f99e4c;
   float: left;
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
-  height: 50px;
+  height: 20vw;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 50px;
+  width: 20vw;
 }
 
 .square:focus {
